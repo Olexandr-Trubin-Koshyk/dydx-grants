@@ -1,0 +1,28 @@
+.navList {
+  list-style-type: none;
+  display: flex;
+
+  font-family: 'Space Mono', Verdana, Geneva, Tahoma, sans-serif;
+
+  .navItem {
+    border-radius: 8px;
+    background: transparent;
+    transition: background 0.25s ease-in-out;
+
+    &:hover {
+      background: $secondary-hover-bg;
+    }
+
+    a {
+      display: block;
+      padding: 12px 16px;
+      line-height: 150%;
+      color: $secondary-c;
+
+      div {
+        display: flex;
+        gap: 8px;
+      }
+    }
+  }
+}

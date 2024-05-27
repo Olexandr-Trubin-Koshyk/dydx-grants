@@ -1,0 +1,18 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  min-height: 100vh;
+  height: max-content;
+  background-color: $primary-bg;
+  background-image: url('../../assets/grid.png');
+  background-size: 75%;
+
+  .content {
+    margin: 0 auto;
+    padding: 24px 30px;
+    width: 100%;
+    max-width: 1400px;
+  }
+}

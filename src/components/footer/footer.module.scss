@@ -1,0 +1,16 @@
+.footer {
+  padding: 80px 108px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  nav {
+    display: flex;
+    align-items: center;
+
+    & > img {
+      margin-right: 16px;
+      width: 60px;
+    }
+  }
+}
